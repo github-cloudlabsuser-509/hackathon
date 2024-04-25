@@ -1,0 +1,50 @@
+{
+  "properties": [
+    {
+      "property_id": "1",
+      "address": "123 Main Street, London",
+      "coordinates": {
+        "latitude": 51.5074,
+        "longitude": -0.1278
+      },
+      "building_development": "Residential",
+      "condition": "Good",
+      "land_usage": "Residential",
+      "area_size": {
+        "value": 2500,
+        "unit": "square meters"
+      },
+      "construction_timeline": {
+        "start_date": "2018-01-01",
+        "end_date": "2019-06-30"
+      },
+      "image_url": "https://example.com/image1.jpg"
+    },
+    {
+      "property_id": "2",
+      "address": "456 Elm Street, London",
+      "coordinates": {
+        "latitude": 51.5189,
+        "longitude": -0.0820
+      },
+      "building_development": "Commercial",
+      "condition": "Fair",
+      "land_usage": "Commercial",
+      "area_size": {
+        "value": 3500,
+        "unit": "square meters"
+      },
+      "construction_timeline": {
+        "start_date": "2019-03-15",
+        "end_date": "2020-10-20"
+      },
+      "image_url": "https://example.com/image2.jpg"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2024-04-22",
+    "source": "Generative AI extraction from street view images and satellite imagery",
+    "city": "London",
+    "country": "United Kingdom"
+  }
+}
